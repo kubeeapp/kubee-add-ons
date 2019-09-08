@@ -7,7 +7,7 @@
   "ingress": true,
   "ingress_port": 8080,
   "startup": "services",
-  "panel_icon": "mdi:docker",
+  "panel_icon": "mdi:flower-poppy",
   "homeassistant": "0.92.0b2",
   "arch": [ "amd64", "i386", "armv7", "armhf" ],
   "image": "kubeeapp/sprinks-{arch}",
