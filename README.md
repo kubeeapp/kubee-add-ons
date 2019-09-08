@@ -1,7 +1,7 @@
 # Kubee Hassio Add-ons
 
-An add-on repository for Hass.io containing Kubee's extensions.
+Add-ons repository for Kubee containing add-on's and extensions.
 
-## [Kubee Sprinks Irrigation Controller (SPRINKS)](https://github.com/kubeeapp/kubee-sprink)
+## [Kubee Grow Assistant (KUBEE)](https://github.com/kubeeapp/Hassio-Add-ons)
 
-Smart Irrigation Controller for Kubee Grow Assistant.
+1. Smart Irrigation Controller for Kubee Grow Assistant.
