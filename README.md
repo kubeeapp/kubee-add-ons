@@ -1,4 +1,4 @@
-# Kubee Sprink
+# Kubee Hassio Add-ons
 
 An add-on repository for Hass.io containing Kubee's extensions.
 
