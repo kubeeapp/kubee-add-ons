@@ -20,7 +20,7 @@
   "docker_api": true,
   "apparmor": true,
   "full_access": true,
-  "discovery": true,
+  "discovery": "mqtt",
   "timeout": 60,
   "ports": {
     "8080/tcp": 8180
