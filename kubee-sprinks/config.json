@@ -1,6 +1,6 @@
 {
   "name": "Kubee Sprinks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "slug": "kubee-sprinks",
   "description": "Smart Irrigation Controller for Kubee Grow Assistant, Hassio Add-on.",
   "webui": "https://[HOST]:[PORT:8180]/",
@@ -19,6 +19,8 @@
   "auth_api": true,
   "docker_api": true,
   "apparmor": true,
+  "full_access": true,
+  "discovery": true,
   "timeout": 60,
   "ports": {
     "8080/tcp": 8180
@@ -31,7 +33,7 @@
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem"
   },
-  "map": [ "config", "ssl" ],
+  "map": [ "config", "addons", "share", "backup", "ssl" ],
   
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
