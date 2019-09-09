@@ -21,7 +21,7 @@
   "apparmor": true,
   "timeout": 60,
   "ports": {
-    "8180/tcp": 8180
+    "8180/tcp": 80
   },
   "ports_description": {
     "8180/tcp": "Web interface"
