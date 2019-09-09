@@ -3,9 +3,9 @@
   "version": "0.0.2",
   "slug": "kubee-sprinks",
   "description": "Smart Irrigation Controller for Kubee Grow Assistant, Hassio Add-on.",
-  "webui": "http://[HOST]:[PORT:8180]/",
+  "webui": "http://[HOST]:[PORT:8080]/",
   "ingress": true,
-  "ingress_port": 80,
+  "ingress_port": 8080,
   "startup": "services",
   "panel_icon": "mdi:sprinkler-variant",
   "homeassistant": "0.92.0b2",
@@ -21,10 +21,10 @@
   "apparmor": true,
   "timeout": 60,
   "ports": {
-    "8180/tcp": 80
+    "8080/tcp": 8180
   },
   "ports_description": {
-    "8180/tcp": "Web interface"
+    "8080/tcp": "Web interface"
   },
   "options": {
     "ssl": true,
