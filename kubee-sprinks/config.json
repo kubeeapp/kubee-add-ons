@@ -33,7 +33,7 @@
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem"
   },
-  "map": [ "config", "addons", "share", "backup", "ssl" ],
+  "map": [ "config", "addons:rw", "share:rw", "backup", "ssl" ],
   
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
