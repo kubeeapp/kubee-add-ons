@@ -30,7 +30,7 @@ RUN \
     && yarn global add modclean \
     \
     && git clone --branch "v2.5.2" --depth=1 \
-        https://github.com/kubeeapp/grow.git /var/www/grocy \
+        https://github.com/grocy/grocy.git /var/www/grocy \
     \
     && cd /var/www/grocy \
     \
