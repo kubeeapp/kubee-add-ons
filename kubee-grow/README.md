@@ -28,7 +28,8 @@ for your home.
 
 ## About
 
-[Grow][grow] - Plant Grow Schedule and beyond... a powerful plant grow & bloom management solution for your automated nutrient feed, delivering features like:
+[Grocy][grocy] - ERP beyond your fridge is a powerful groceries & household
+management solution for your home, delivering features like:
 
 - Stock management
 - Shopping list
@@ -37,7 +38,7 @@ for your home.
 - Inventory
 - and many more.
 
-[Try out the online demo of Grocy][grow-demo].
+[Try out the online demo of Grocy][grocy-demo].
 
 ## Installation
 
@@ -206,7 +207,7 @@ Thank you for being involved! :heart_eyes:
 
 ## Authors & contributors
 
-The original setup of this repository is by [Kubee App][kubeeapp].
+The original setup of this repository is by [Franck Nijhof][frenck].
 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
@@ -248,33 +249,33 @@ SOFTWARE.
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/kubeeapp
+[buymeacoffee]: https://www.buymeacoffee.com/frenck
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-grocy.svg
-[commits]: https://github.com/kubeeapp/kubee-grow/commits/master
-[contributors]: https://github.com/kubeeapp/kubee-grow/graphs/contributors
-[discord-ha]: https://discord.gg/
+[commits]: https://github.com/hassio-addons/addon-grocy/commits/master
+[contributors]: https://github.com/hassio-addons/addon-grocy/graphs/contributors
+[discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
-[discord]: https://discord.me/kubeeapp
-[dockerhub]: https://hub.docker.com/r/kubeeapp/grow
+[discord]: https://discord.me/hassioaddons
+[dockerhub]: https://hub.docker.com/r/hassioaddons/grocy
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/kubee-grow/5642322?u=kubeeapp
-[frenck]: https://github.com/kubeeapp
-[gitlabci-shield]: https://github.com/kubeeapp/kubee-grow/badges/master/pipeline.svg
-[gitlabci]: https://github.com/kubeeapp/kubee-grow/pipelines
-[grow]: https://grow.kubee.cf/
-[grow-demo]: https://demo-grow.kubee.cf
+[forum]: https://community.home-assistant.io/t/community-hass-io-add-on-grocy/112422?u=frenck
+[frenck]: https://github.com/frenck
+[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-grocy/badges/master/pipeline.svg
+[gitlabci]: https://gitlab.com/hassio-addons/addon-grocy/pipelines
+[grocy]: https://grocy.info/
+[grocy-demo]: https://demo-en.grocy.info
 [home-assistant]: https://home-assistant.io
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[issue]: https://github.com/kubeeapp/kubee-grow/issues
+[issue]: https://github.com/hassio-addons/addon-grocy/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-grocy.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [microbadger]: https://microbadger.com/images/hassioaddons/grocy
-[patreon-shield]: https://kubee.cf/local/assets/images/patreon.png
+[patreon-shield]: https://www.frenck.nl/images/patreon.png
 [patreon]: https://www.patreon.com/
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [python-packages]: https://pypi.org/
-[reddit]: https://reddit.com/r/kubeeapp
+[reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-grocy.svg
 [releases]: https://github.com/hassio-addons/addon-grocy/releases
 [repository]: https://github.com/hassio-addons/repository
