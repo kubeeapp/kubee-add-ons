@@ -11,7 +11,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # Setup base
 
 # set work directory
-WORKDIR /usr/src/app
+#WORKDIR /usr/src/app
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
@@ -22,7 +22,7 @@ RUN apk update \
     && apk add --no-cache postgresql-dev gcc python3-dev musl-dev \ 
     coreutils=8.31-r0 \
     git=2.26.2-r0 \
-    nginx=1.19.0-r0 \
+    nginx=1.18.0-r0 \
     yarn=1.22.4-r0 \
     composer=1.10.9-r0 \
     wget=1.20.3-r0
@@ -54,7 +54,7 @@ ARG BUILD_VERSION
 # Labels
 LABEL \
     io.hass.name="KDj" \
-    io.hass.description="Kubee Django Add-on" \
+    io.hass.description="Kubee Django Add-on ..." \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
