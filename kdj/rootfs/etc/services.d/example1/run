@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Home Assistant Community Add-on: Example
+# Runs example1 script
+# ==============================================================================
+
+
+bashio::log.info "Starting Kubee Django example1..."
+
+exec /usr/bin/example1.sh

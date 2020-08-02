@@ -1,0 +1,21 @@
+{
+  "name": "KDj",
+  "version": "dev",
+  "slug": "kdj",
+  "description": "Kubee Django Add-on",
+  "url": "https://github.com/kubeeapp/kubee-addons/kdj",
+  "startup": "application",
+  "init": false,
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "options": {
+    "log_level": "info",
+    "seconds_between_quotes": 5
+  },
+  "schema": {
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)",
+    "seconds_between_quotes": "int(1,120)"
+  }
+}
