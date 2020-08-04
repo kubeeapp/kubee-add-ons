@@ -56,10 +56,7 @@ RUN \
         /usr/local/share/.cache \
         /usr/lib/node_modules \
         /var/www/kcms/.git \
-        /var/www/kcms/.tx \
-        /var/www/kcms/.vscode \
-        /var/www/kcms/build.bat \
-        /var/www/kcms/build_tools
+        /var/www/kcms/.tx
 
 # Copy root filesystem
 COPY rootfs /
