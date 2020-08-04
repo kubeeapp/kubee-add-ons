@@ -31,7 +31,7 @@ RUN \
     \
     && yarn global add modclean \
     \
-    && git clone --branch "v2.7.1" --depth=1 \
+    && git clone --depth=1 \
         https://github.com/kubeeapp/kcms.git /var/www/kcms \
     \
     && cd /var/www/kcms \
@@ -43,20 +43,7 @@ RUN \
         --path /var/www/kcms/public \
         --no-progress \
         --keep-empty \
-        --run \
-    \
-    && yarn global remove modclean \
-    && yarn cache clean \
-    && apk del --no-cache --purge .build-dependencies \
-    \
-    && find /var/www/ -type f -name "*.md" -depth -exec rm -f {} \; \
-    && rm -f -r \
-        /tmp/* \
-        /etc/nginx \
-        /usr/local/share/.cache \
-        /usr/lib/node_modules \
-        /var/www/kcms/.git \
-        /var/www/kcms/.tx
+        --run 
 
 # Copy root filesystem
 COPY rootfs /
