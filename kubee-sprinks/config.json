@@ -1,6 +1,6 @@
 {
   "name": "Kubee Sprinks",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "slug": "sprinks",
   "description": "Smart Irrigation Controller for Kubee Grow Assistant, Hassio Add-on.",
   "webui": "https://[HOST]:[PORT:8180]/",
